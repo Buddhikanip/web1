@@ -7,23 +7,31 @@ body{
     position: relative;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px); 
     font-size: 10pt !important;
 }
-
+.bullsOvers{
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+.statOvers{
+    position: relative;
+    left: 30px;
+}
 
 .container-fluid{
     background-color: #202125;
     backdrop-filter: blur(10px);
     color: #cbe6f9;
-    /*max-width: 700px !important;*/
+    max-width: 700px !important;
     box-shadow: 1px 1px 2px 1px rgb(88, 88, 88);
     position: absolute; 
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     display:none;   
-}
+} 
 .container{
     background-color: #202125;
     backdrop-filter: blur(10px);
@@ -39,7 +47,7 @@ p{
     text-align: center;
     color: #cbe6f9;
 }
-/*
+
 .bullsOvers span, .statOvers span{
     text-align: center;
     color: #cbe6f9;
@@ -57,7 +65,7 @@ p{
 .bullsTotal , .statTotal {
     position: relative;
 }
-*/
+
 #logoText{
     position: relative;
     top: -20px;
@@ -79,7 +87,7 @@ span{
 
 
 #nav{
-    /*background-color: #303135 !important;*/
+    background-color: #303135 !important;
     background: none;
     backdrop-filter: blur(10px);
     backdrop-filter: none;
@@ -93,8 +101,8 @@ span{
     margin: 0;
     background: none;
 }
-/*
-.navbar a {
+
+/* .navbar a {
 
 
     color: rgb(202, 202, 202);
@@ -122,9 +130,9 @@ span{
       width: 100%;
       text-align: left;
     }
-}
+} */
 
-*/
+
 
 
 
